@@ -54,6 +54,7 @@ router.get(
     failureRedirect: "/",
   }),
   (req, res) => {
+    console.log("여기")
     res.redirect("/");
   }
 );
